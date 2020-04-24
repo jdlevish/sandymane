@@ -1,0 +1,113 @@
+#nav-brandcustom{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 50px;
+}
+.nav-custom {
+    background-color:white;
+    color:rgb(219, 146, 62);
+    
+}
+.link-custom{
+    color:rgb(219, 146, 62);
+    font-family: 'Amatic SC', bold;
+    font-size:40px;
+}
+.link-custom:hover{
+    color:rgb(219, 146, 62);
+}
+.images_container img {
+    vertical-align: center;
+    height: 800px;
+  } 
+  .color{
+      background-color:rgb(219, 146, 62);
+  }
+  
+  /*.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: 1} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: 1} 
+    to {opacity: 1}
+  }*/
+  .slideshowWrapper{
+      display:flex;
+      
+  }
+ .slideshow-container {
+     padding-top: 5%;
+    max-width: 800px;
+    
+    white-space: nowrap;
+    margin: auto;
+} 
+/*slideshow 2 index*/
+/*.images_container2 img {
+    vertical-align: center;
+    height: 600px;
+}*/
+
+.slideshow-container2 {
+    padding-top: 5%;
+    max-width: 800px;
+    
+    white-space: nowrap;
+    margin: auto;
+}
+.pics {display: grid;
+      
+
+}
+.pics2 {display: flex;
+  
+
+}
+/*slideshow 3 index*/
+.slideshow-container3 {
+    padding-top: 5%;
+    max-width: 800px;
+    
+    white-space: nowrap;
+    margin: auto;
+   
+}
+.pics3 {display: flex;
+    
+}
+/*bottom contact info  index*/
+.contact{
+    display: flex;
+    
+    font-family:'Amatic SC', bold;
+    font-size:35px;
+    color:rgb(165, 106, 38);
+    border-top: 3px solid rgb(219, 146, 62); 
+    justify-items: center;
+    text-align: center;
+}
+
+
+.social_bar{
+    display:flex;
+    justify-content: center;
+    
+}
+#insta-icon{
+    width:80px;
+    height:80px;
+ }
+ .grad{
+    background-image: url("background.jpg");
+    background-size:100% 100%;
+    
+    
+ }
