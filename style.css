@@ -15,37 +15,16 @@
 .link-custom:hover{
     color:rgb(219, 146, 62);
 }
-.images_container img {
-    
-    /*height: 800px;*/
-  } 
+
   .color{
       background-color:rgb(219, 146, 62);
   }
   .picDiv{
       padding-top: 5%;
+      white-space:nowrap;
   }
   
-  /*.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: 1} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: 1} 
-    to {opacity: 1}
-  }*/
-  .slideshowWrapper{
-      
-      
-  }
+
  .slideshow-container {
      padding-top: 5%;
     max-width: 800px;
@@ -53,11 +32,7 @@
     white-space: nowrap;
     margin: auto;
 } 
-/*slideshow 2 index*/
-/*.images_container2 img {
-    vertical-align: center;
-    height: 600px;
-}*/
+
 
 .slideshow-container2 {
     padding-top: 5%;
@@ -66,15 +41,7 @@
     white-space: nowrap;
     margin: auto;
 }
-/*.pics {display: grid;*/
-      
 
-/*}*/
-/*.pics2 {display: flex;*/
-  
-
-/*}*/
-/*slideshow 3 index*/
 .slideshow-container3 {
     padding-top: 5%;
     max-width: 800px;
@@ -85,12 +52,12 @@
 
 /*bottom contact info  index*/
 .contact{
-    display: flex;
+    
     
     font-family:'Amatic SC', bold;
     font-size:35px;
     color:rgb(165, 106, 38);
-    border-top: 3px solid rgb(219, 146, 62); 
+    
     justify-items: center;
     text-align: center;
 }
