@@ -16,11 +16,14 @@
     color:rgb(219, 146, 62);
 }
 .images_container img {
-    vertical-align: center;
-    height: 800px;
+    
+    /*height: 800px;*/
   } 
   .color{
       background-color:rgb(219, 146, 62);
+  }
+  .picDiv{
+      padding-top: 5%;
   }
   
   /*.fade {
@@ -40,7 +43,7 @@
     to {opacity: 1}
   }*/
   .slideshowWrapper{
-      display:flex;
+      
       
   }
  .slideshow-container {
@@ -63,26 +66,23 @@
     white-space: nowrap;
     margin: auto;
 }
-.pics {display: grid;
+/*.pics {display: grid;*/
       
 
-}
-.pics2 {display: flex;
+/*}*/
+/*.pics2 {display: flex;*/
   
 
-}
+/*}*/
 /*slideshow 3 index*/
 .slideshow-container3 {
     padding-top: 5%;
     max-width: 800px;
     
-    white-space: nowrap;
-    margin: auto;
+   
    
 }
-.pics3 {display: flex;
-    
-}
+
 /*bottom contact info  index*/
 .contact{
     display: flex;

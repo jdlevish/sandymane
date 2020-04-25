@@ -14,7 +14,8 @@
 <title>Document</title>
 </head>
 <body class="grad">
-    <div class="container-fluid">
+    <div class="row">
+    <div class="container justify-content-center col-md-12">
     <nav >
         <ul  class="nav nav-custom link-custom justify-content-center">
             <li class="nav-item">
@@ -33,10 +34,12 @@
           </ul>
     </nav>
     </div>
+</div>
     <div>
         
-        <div class="slideshowWrapper container">
-            <div class="slideshow-container">
+        <div class="container">
+            <div class="row">
+            <div class="picDiv  col-md-6 col-sm-12 ">
                  <div  class="pics">
                  <img  src="IMG-2903.jpg" height="600px" width="500px">
                  </div>
@@ -68,7 +71,7 @@
                  <img src="IMG-4614.jpg" height="600px" width="500px">
                  </div>
           </div>
-          <div class="slideshow-container2">
+          <div class=" picDiv  col-md-6 col-sm-12 ">
                  <div  class="pics2 ">
                          <img  src="IMG-2903.jpg" height="600px" width="500px">
                          </div>
@@ -101,19 +104,25 @@
                          </div>
  
                    </div> 
+                   </div>
                  </div>
     </div>
-    <div class="container">
-    <div class="contact container-fluid justify-content-center">
+    <div class="container ">
+        <div class="row">
+
+    <div class="contact  justify-content-center col-md-12">
         <p>For appointment info call 760-285-8849<br />
                 Business Hours<br />
              Wednesday - Saturday<br />
                   9am to 5pm</p>
                   
               
-              <a href="https://www.instagram.com/meganlevishhair/?hl=en" target="none" ><img id="insta-icon" src="instagram_icon.png" /></a>
-               
+              
            </div>
+           <div class="social_bar  justify-content-center col-md-12">
+           <a href="https://www.instagram.com/meganlevishhair/?hl=en" target="none" ><img id="insta-icon" src="instagram_icon.png" /></a>
+           </div>
+           </div>    
            </div>   
            <script>
 
@@ -131,8 +140,8 @@
                      }
                 count++
                if( count >= slides.length){  count = 2}; 
-              slides[count - 2].style = "display: flex";
-              slides2[count -1].style = "display: flex";
+              slides[count - 2].style = "display: grid";
+              slides2[count -1].style = "display: grid";
               setTimeout(showSlides, 4000);
                 }
 
