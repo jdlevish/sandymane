@@ -1,7 +1,12 @@
 #nav-brandcustom{
     font-family: 'Homemade Apple', cursive;
     font-size: 50px;
-}
+    }
+    #nav-brandcustomMobile{
+        font-family: 'Homemade Apple', cursive;
+        font-size: 30px;
+        justify-content: center;
+    }
 .nav-custom {
     background-color:white;
     color:rgb(219, 146, 62);
@@ -20,34 +25,33 @@
       background-color:rgb(219, 146, 62);
   }
   .picDiv{
-      padding-top: 5%;
-      white-space:nowrap;
+      display:flex;
+      
+      padding-top: 10%;
+     
   }
+  .navbar-light{
+    color:rgb(219, 146, 62);
+}
+.mobbrand{
+    font-family: 'Homemade Apple', cursive;
+    font-size: 25px;
+    color:rgb(219, 146, 62);
+    text-align:center;
+
+}
+  
   
 
- .slideshow-container {
-     padding-top: 5%;
-    max-width: 800px;
-    
-    white-space: nowrap;
-    margin: auto;
-} 
 
 
-.slideshow-container2 {
-    padding-top: 5%;
-    max-width: 800px;
-    
-    white-space: nowrap;
-    margin: auto;
-}
 
-.slideshow-container3 {
-    padding-top: 5%;
-    max-width: 800px;
-    
+
    
-   
+
+.marg{
+    margin-left:5%;
+    padding-left:5%;
 }
 
 /*bottom contact info  index*/
