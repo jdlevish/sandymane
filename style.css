@@ -61,14 +61,13 @@
     font-family:'Amatic SC', bold;
     font-size:35px;
     color:rgb(165, 106, 38);
-    
-    justify-items: center;
+    justify-content: center;
     text-align: center;
+    padding-top: 4%;
 }
 
 
 .social_bar{
-    display:flex;
     justify-content: center;
     
 }
