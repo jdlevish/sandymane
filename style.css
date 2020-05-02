@@ -26,9 +26,11 @@
   }
 .picDiv{
       display:flex;
-      margin: 0 auto;
+      margin: 0 0;
       padding-top: 10%;
       padding-left: none;
+      padding-right: none;
+
      
   }
   .navbar-light{
@@ -50,6 +52,12 @@
     text-align:center;
 
 }
+img{
+    max-width: calc(100vw - 5px);
+    object-fit: cover;
+    max-height: calc(100vh - 35px);
+  }
+  
   
   
 
