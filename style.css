@@ -21,13 +21,14 @@
     color:rgb(219, 146, 62);
 }
 
-  .color{
-      background-color:rgb(219, 146, 62);
+.color{
+     background-color:rgb(219, 146, 62);
   }
-  .picDiv{
+.picDiv{
       display:flex;
-      
+      margin: 0 auto;
       padding-top: 10%;
+      padding-left: none;
      
   }
   .navbar-light{
