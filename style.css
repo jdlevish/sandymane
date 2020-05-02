@@ -37,6 +37,9 @@
 
      
   }
+  .nobord{
+      margin-left:0;
+  }
   .navbar-light{
     color:rgb(219, 146, 62);
 }
