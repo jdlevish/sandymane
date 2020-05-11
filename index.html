@@ -17,7 +17,7 @@
 <title>The Sandy Mane</title>
 </head>
 <body class="grad">
-  <div class="row d-flex ">
+  <div class="row ">
     <div class=" navbar justify-content-center col-md-12 nopad">
   <nav class="navbar nav-custom navbar-expand-sm fixed-top ">
     <div class="container">
@@ -44,7 +44,7 @@
             <li class="nav-item">
               <a class="nav-link link-custom" href="newclient.html" >New Clients</a>
             </li>
-            </ul>
+          </ul>
         </div>
     </div>
   </nav>
@@ -52,7 +52,8 @@
     
         
       <div class="container">
-        <div class=" picDiv float-left  justify-content-left ">
+        <div class="row">
+        <div class=" picDiv col-md-5 col-xs-12 ">
               <div  class="pics img-fluid">
                 <img  src="IMG-2903.jpg" height="600px" width="500px">
               </div>
@@ -84,7 +85,8 @@
                 <img src="IMG-4614.jpg" height="600px" width="500px">
               </div>
               </div>
-          <div class="picDiv  float-right justify-content-right  ">
+              <div class="col-md-2 col-xs-hidden"></div>
+          <div class="picDiv  col-md-5 col-xs-12 ">
               <div  class="pics2 img-fluid ">
                 <img  src="IMG-2903.jpg" height="600px" width="500px">
               </div>
@@ -115,6 +117,7 @@
               <div  class="pics2 img-fluid ">
                 <img src="IMG-4614.jpg" height="600px" width="500px">
               </div>
+            </div>
  
                 </div> 
               </div>
@@ -157,8 +160,8 @@
                 }
               count++
             if( count >= slides.length){  count = 2}; 
-              slides[count - 2].style = "display: grid";
-              slides2[count -1].style = "display: grid";
+              slides[count - 2].style = "display: flex"
+              slides2[count -1].style = "display: flex";
               setTimeout(showSlides, 4000);
                 }
     </script>   
