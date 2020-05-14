@@ -73,6 +73,11 @@ img{
     object-fit: cover;
     max-height: calc(100vh - 35px);
   }
+
+.middleDiv{
+    background-color:white;
+    height:40vh;
+}
   
   
   
