@@ -14,6 +14,10 @@
         margin-left: 3.5rem;
        
     }
+    .navbar-brand{
+    font-family: 'Homemade Apple', cursive;
+
+    }
 .container{
     padding:0;
 }
