@@ -1,71 +1,64 @@
+
+
 #nav-brandcustom {
-	font-family: "Homemade Apple", cursive;
-	font-size: 50px;
-}
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vh;}
+
 #nav-brandcustomMobile {
-	font-family: "Homemade Apple", cursive;
-	font-size: 20px;
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	margin-left: 3.5rem;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vh;
+	
 }
+.logoBrand{
+	height:7vh;
+	width: auto;
+}
+
 .navbar-brand {
-	font-family: "Homemade Apple", cursive;
+	font-family: "AntoneStandard";
 }
 .container {
 	padding: 0;
 }
 .nav-custom {
-	background-color: white;
+	background-color:#FBFCF5;
 	color: rgb(219, 146, 62);
 }
 .link-custom {
-	color: rgb(219, 146, 62);
-	font-family: "Amatic SC", bold;
-	font-size: 40px;
+	color:#AF5F44;
+	font-family: 'Amatic SC', cursive;
+	font-size: 3vh;
+}
+a{
+	color:#AF5F44;
+
+}
+a:hover{
+	color:#772305;
+	text-decoration:none;
 }
 .link-custom:hover {
-	color: rgb(219, 146, 62);
+	color: #C68D7A;
 }
 
 .color {
 	background-color: rgb(219, 146, 62);
 }
 .picDiv {
-	padding-top: 10%;
-	margin-left: 1%;
-	margin-right: 1%;
+	background-color: white;
+	border: 10px solid white;
 }
-.nopad {
-	border-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	margin-right: auto;
-	margin-left: auto;
-}
-.navbar-light {
-	color: rgb(219, 146, 62);
-}
-.mobbrand {
-	font-family: "Homemade Apple", cursive;
-	font-size: 25px;
-	color: rgb(219, 146, 62);
-	text-align: center;
-}
+
+
 .coming_soon {
 	padding-top: 15%;
 	padding-bottom: 10%;
-	font-family: "Homemade Apple", cursive;
+	font-family: "AntoneStandard";
 	font-size: 100px;
 	color: rgb(83, 58, 28);
 	text-align: center;
 }
-img {
-	max-width: calc(100vw - 5px);
-	object-fit: cover;
-	max-height: calc(100vh - 35px);
-}
+
 
 .middleDiv {
 	background-color: white;
@@ -74,23 +67,91 @@ img {
 
 /*bottom contact info  index*/
 .contact {
-	font-family: "Amatic SC", bold;
-	font-size: 35px;
-	color: rgb(165, 106, 38);
+	font-family: "AntoneStandard";
+	font-size: 3vh;
+	color:#A57961;
 	justify-content: center;
 	text-align: center;
-	padding-top: 4%;
+	padding-top: 30vh;
 }
 
-.social_bar {
-	justify-content: center;
+.social {
+	margin:auto;
 }
 #insta-icon {
 	width: 80px;
 	height: 80px;
 }
-.grad {
-	background-image: url("background.jpg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
+
+.logo{
+	height:10vh;
+	width:auto;
 }
+.picsc{
+	padding-top: 15vh; 
+}
+.mpic{
+	margin-right: auto;
+	margin-left:auto;
+	display:block;
+	height:50vh;
+	width:auto;
+
+}
+
+.about{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 2.5vh;
+    flex-direction: end;
+	padding-left:20px;
+	text-align: left;
+}
+.about2{
+	font-size: 3vh; 
+	font-family: 'Epilogue', sans-serif;
+    flex-direction: start;
+	padding-left:20px;
+}
+
+.intro{
+	color:#AD5C40;
+}
+.form-control{
+	border:none;
+}
+.imgr{
+	float:right;
+	width:40vw;
+	height:auto;
+}
+.btnClass{
+	font-family: 'Sarabun', sans-serif;
+	font-size: 2.5vh;
+	background-color: white;
+	color:#AD5C40;
+}
+.btnClass:hover{
+	color:#772305;
+}
+/* .bgimg{
+	background-image:url(/images/tsm4.jpg);
+	height: 100%; */
+
+  /* Create the parallax scrolling effect */
+  /* background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+/* } */
+.divcol{
+	background-color: #FBFCF5;
+	
+}
+li{
+	align-self: flex-end;
+}
+body{
+	background-color: #FBFCF5;
+}
+
+ 
