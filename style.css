@@ -16,6 +16,8 @@
 
 .navbar-brand {
 	font-family: "AntoneStandard";
+	margin-right: 32%;
+	
 }
 .container {
 	padding: 0;
@@ -34,7 +36,7 @@ a{
 
 }
 a:hover{
-	color:#772305;
+color: white;
 	text-decoration:none;
 }
 .link-custom:hover {
@@ -74,6 +76,9 @@ a:hover{
 	text-align: center;
 	padding-top: 30vh;
 }
+.formDiv{
+	padding-top:25vh;
+}
 
 .social {
 	margin:auto;
@@ -95,7 +100,7 @@ a:hover{
 	margin-left:auto;
 	display:block;
 	height:50vh;
-	width:auto;
+	width:43vh;
 
 }
 
@@ -124,15 +129,13 @@ a:hover{
 	width:40vw;
 	height:auto;
 }
-.btnClass{
+/* .btnClass{
 	font-family: 'Sarabun', sans-serif;
 	font-size: 2.5vh;
 	background-color: white;
 	color:#AD5C40;
-}
-.btnClass:hover{
-	color:#772305;
-}
+} */
+
 /* .bgimg{
 	background-image:url(/images/tsm4.jpg);
 	height: 100%; */
@@ -153,5 +156,13 @@ li{
 body{
 	background-color: #FBFCF5;
 }
-
+.btn-outline-secondary{
+	border-color:#AD5C40;
+	color:#AD5C40;
+}
+.btn-outline-secondary:hover {
+    color: #fff;
+    background-color: #AD5C40;
+    border-color: #AD5C40;
+}
  

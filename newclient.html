@@ -28,7 +28,7 @@
 
 <body class="grad bgimg">
   <div class="row ">
-    <div class=" navbar justify-content-center col-md-12 pl-3">
+    <div class=" navbar justify-content-center col-md-12 p-0">
       <nav class="navbar nav-custom navbar-expand-lg fixed-top ">
         <div class="container">
          
@@ -68,21 +68,36 @@
   </div>
     </div>
   </div>
-  <div class="container contact">
-    <form class="form-control b-0">
-      <label for="firstName">First Name: </label>
-      <input type="text" id="firstName" placeholder="first name">
-      <label for="lastName">Last Name: </label>
-      <input type="text" id="lastName" placeholder="last name">
+  <div class="container formDiv">
+    <form >
+    <div class="form-group col-md">
+      <label for="first name">First name:</label>
+      <input class="form-control form-control-sm" type="text" id="firstName" placeholder="first name">
+      <label for="last name">Last Name:</label>
+    
+      <input type="text" id="lastName" class="form-control form-control-sm" placeholder="last name">
+    </div>
+    <div class="form-group col-md">
       <label for="email">Email Address:</label>
-      <input for="email" id="email" placeholder="Email Address"
+      <input for="email" id="email" placeholder="Email Address" class="form-control form-control-sm"
         pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required />
       <label for="phoneNumber">Phone Number:</label>
-      <input type="tel" id="phoneNumber" placeholder="xxxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required />
+
+      <input type="tel" id="phoneNumber" class="form-control form-control-sm"placeholder="xxxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required />
+    </div>
+    <div class="form-group col-md">
       <label for="hairColor">Hair Color:</label>
-      <input type="text" id="hairColor" placeholder="sandy">
+      <input type="text" id="hairColor"class="form-control form-control-sm" placeholder="sandy">
       <label for="hairCondition">Hair Condition:</label>
-      <input type="text" id="hairCondition" placeholder="Healthy">
+      <input type="text" class="form-control form-control-sm" id="hairCondition" placeholder="Healthy">
+    </div>
+    <div class="form-group col-md">
+      <label for="Service">Service Interested In:</label>
+      <input type="text" id="Service"class="form-control form-control-sm" placeholder="Highlights">
+      <br/>
+      <button type="submit" class="btn btn-outline-secondary"> Submit</button>
+    </div>
+    
     </form>
   </div>
 
@@ -97,9 +112,7 @@
 
 
 
-  <div class="social_bar col-md-12">
-    <a href="hhttps://www.instagram.com/the_sandy_mane/?hl=en" target="none"><img id="insta-icon"
-        src="instagram_icon.png" /></a>
+ 
 
 
   </div>
