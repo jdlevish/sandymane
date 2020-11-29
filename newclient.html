@@ -72,28 +72,28 @@
     <form  method="POST" name="newClient"  netlify>
     <div class="form-group col-md">
       <label for="firstName">First name:</label>
-      <input class="form-control form-control-sm" type="text" id="firstName" placeholder="first name">
+      <input class="form-control form-control-sm" type="text" id="firstName" name="firstName" placeholder="first name">
       <label for="lastName">Last Name:</label>
     
-      <input type="text" id="lastName" class="form-control form-control-sm" placeholder="last name">
+      <input type="text" id="lastName" class="form-control form-control-sm" name="lastName" placeholder="last name">
     </div>
     <div class="form-group col-md">
       <label for="email">Email Address:</label>
-      <input for="email" id="email" placeholder="Email Address" class="form-control form-control-sm"
+      <input for="email" id="email" placeholder="Email Address" name="email" class="form-control form-control-sm"
         required />
       <label for="phoneNumber">Phone Number:</label>
 
-      <input type="tel" id="phoneNumber" class="form-control form-control-sm"placeholder="xxxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required />
+      <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control form-control-sm"placeholder="xxxxxxxxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required />
     </div>
     <div class="form-group col-md">
       <label for="hairColor">Hair Color:</label>
-      <input type="text" id="hairColor"class="form-control form-control-sm" placeholder="sandy">
+      <input type="text" id="hairColor" name="hairColor" class="form-control form-control-sm" placeholder="sandy">
       <label for="hairCondition">Hair Condition:</label>
-      <input type="text" class="form-control form-control-sm" id="hairCondition" placeholder="Healthy">
+      <input type="text" class="form-control form-control-sm" name="hairCondition" id="hairCondition" placeholder="Healthy">
     </div>
     <div class="form-group col-md">
       <label for="Service">Service Interested In:</label>
-      <input type="text" id="Service"class="form-control form-control-sm" placeholder="Highlights">
+      <input type="text" name="requestedService" id="Service"class="form-control form-control-sm" placeholder="Highlights">
       <br/>
       <button type="submit" class="btn btn-outline-secondary"> Submit</button>
     </div>
