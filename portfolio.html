@@ -68,39 +68,17 @@
   </div>
   <div class="container">
     <div class="row"> 
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-        <img src="images\portfolio\IMG_7649.jpg"  class="img-fluid mt-5">
-        <img src="images\portfolio\IMG_7795.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_9030.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_9068.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_7300.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_7375.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_7392.jpg"  class="img-fluid">
+      <div  id="col1" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-5">
+        
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
-        <img src="images\portfolio\IMG_7687.jpg"  class="img-fluid mt-0">
-        <img src="images\portfolio\IMG_0336.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_0491.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_0495.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_0732.JPG"  class="img-fluid">
-        <img src="images\portfolio\IMG_0785.jpg"  class="img-fluid">
+      <div id="col2" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-2">
+        
       </div>  
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 ">
-        <img src="images\portfolio\IMG_1265.jpg"  class="img-fluid mt-5">
-        <img src="images\portfolio\IMG_1317.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_1345.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_1413.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_1557.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_2472.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_7094.jpg"  class="img-fluid">
+      <div id="col3" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-5">
+       
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-        <img src="images\portfolio\IMG_2874.jpg"  class="img-fluid mt-0">
-        <img src="images\portfolio\IMG_2890.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_3007.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_3299.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_3422.jpg"  class="img-fluid">
-        <img src="images\portfolio\IMG_3654.jpg"  class="img-fluid">
+      <div id="col4" class="col-lg-3 col-md-3 col-sm-6 col-xs-6 mt-2">
+        
       </div>
     </div>
     </div>
@@ -126,6 +104,50 @@
       </div>
       
 </body>
+<script>
+var col1 = document.getElementById("col1");
+var col2 = document.getElementById("col2");
+var col3 = document.getElementById("col3");
+var col4 = document.getElementById("col4");
+console.log(col1)
+  for(let i=2; i<49; i++){
+    console.log(i)
+    if(i<13){
+
+     var img = document.createElement("img")
+     img.src = "https://res.cloudinary.com/cvdevjl/image/upload/v1607575903/"+i+".jpg"
+     img.classList = "img-fluid"
+     console.log(img)
+     col1.appendChild(img)
+     
+    }
+    else if(i>13 && i<26){
+      var img = document.createElement("img")
+     img.src = "https://res.cloudinary.com/cvdevjl/image/upload/v1607575903/"+i+".jpg"
+     img.classList = "img-fluid"
+     console.log(img)
+     col2.appendChild(img)
+
+    }
+    else if(i>26 && i<39){
+      var img = document.createElement("img")
+     img.src = "https://res.cloudinary.com/cvdevjl/image/upload/v1607575903/"+i+".jpg"
+     img.classList = "img-fluid"
+     console.log(img)
+     col3.appendChild(img)
+
+    }
+    else{
+      var img = document.createElement("img")
+     img.src = "https://res.cloudinary.com/cvdevjl/image/upload/v1607575903/"+i+".jpg"
+     img.classList = "img-fluid"
+     console.log(img)
+     col4.appendChild(img)
+
+    }
+    
+  }
+</script>
 
 
 </html>
