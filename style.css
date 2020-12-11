@@ -181,3 +181,11 @@ img {
 
 }
 
+/* fade in css for portfolio */
+.hideme
+{
+    opacity:.2;
+}
+.portfolio-container{
+	padding-top: 10vh;
+}
